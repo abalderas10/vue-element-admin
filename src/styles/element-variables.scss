@@ -1,23 +1,39 @@
 /**
-* I think element-ui's default theme color is too light for long-term use.
-* So I modified the default color and you can modify it to your liking.
+* Plataforma Robusta - Colores con soporte para modo claro/oscuro
+* Paleta inspirada en solidez y elegancia empresarial
 **/
 
-/* theme color */
-$--color-primary: #1890ff;
-$--color-success: #13ce66;
-$--color-warning: #ffba00;
-$--color-danger: #ff4949;
-// $--color-info: #1E1E1E;
+/* Robust Platform theme colors */
+$--color-primary: #0A2E5C;    // Azul universo profundo
+$--color-success: #2E7D32;    // Verde corporativo
+$--color-warning: #EF6C00;    // Naranja sobrio
+$--color-danger: #C62828;     // Rojo oscuro
+$--color-info: #455A64;       // Gris azulado corporativo
 
-$--button-font-weight: 400;
+// Modo Oscuro
+$--bg-dark-primary: #0D1117;     // Negro tecnológico robusto
+$--bg-dark-secondary: #161B22;   // Fondo secundario tech
+$--text-dark-primary: #E1E5E9;   // Texto claro principal
 
-// $--color-text-regular: #1f2d3d;
+// Modo Claro
+$--bg-light-primary: #E1E5E9;    // Gris claro elegante
+$--bg-light-secondary: #CFD8DC;  // Gris intermedio
+$--text-light-primary: #263238;  // Texto oscuro principal
 
-$--border-color-light: #dfe4ed;
-$--border-color-lighter: #e6ebf5;
+/* Typography - Robust Platform */
+$--button-font-weight: 600;          // Botones robustos
+$--color-text-primary: #263238;      // Texto principal robusto
+$--color-text-regular: #455A64;      // Texto regular
+$--color-text-secondary: #78909C;    // Texto secundario
+$--color-text-placeholder: #90A4AE;  // Placeholders
 
-$--table-border: 1px solid #dfe6ec;
+/* Borders and backgrounds - Robust Platform */
+$--border-color-base: #B0BEC5;       // Bordes base robustos
+$--border-color-light: #CFD8DC;      // Bordes claros
+$--border-color-lighter: #ECEFF1;    // Bordes muy claros
+$--background-color-base: #FAFAFA;   // Fondo base limpio
+
+$--table-border: 1px solid #CFD8DC;  // Bordes de tabla robustos
 
 /* icon font path, required */
 $--font-path: "~element-ui/lib/theme-chalk/fonts";

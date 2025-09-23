@@ -1,25 +1,24 @@
-// base color
-$blue:#324157;
-$light-blue:#3A71A8;
-$red:#C03639;
-$pink: #E65D6E;
-$green: #30B08F;
-$tiffany: #4AB7BD;
-$yellow:#FEC171;
-$panGreen: #30B08F;
+// Plataforma Robusta - Colores base
+$robust-blue: #0A2E5C;     // Azul principal robusto
+$robust-success: #2E7D32;  // Verde corporativo
+$robust-warning: #EF6C00;  // Naranja sobrio
+$robust-danger: #C62828;   // Rojo oscuro
+$robust-info: #455A64;     // Gris azulado
+$robust-dark: #0D1117;     // Negro tecnológico
+$robust-light: #E1E5E9;    // Gris claro elegante
 
-// sidebar
-$menuText:#bfcbd9;
-$menuActiveText:#409EFF;
-$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+// Sidebar - Plataforma Robusta
+$menuText: #B0BEC5;           // Texto del menú - gris claro robusto
+$menuActiveText: #0A2E5C;     // Texto activo - azul principal
+$subMenuActiveText: #FFFFFF;  // Texto submenu activo - blanco puro
 
-$menuBg:#304156;
-$menuHover:#263445;
+$menuBg: #263238;             // Fondo menú - gris oscuro robusto
+$menuHover: #37474F;          // Hover menú - gris medio
 
-$subMenuBg:#1f2d3d;
-$subMenuHover:#001528;
+$subMenuBg: #1C2833;          // Fondo submenu - azul muy oscuro
+$subMenuHover: #0A2E5C;       // Hover submenu - azul principal
 
-$sideBarWidth: 210px;
+$sideBarWidth: 220px;         // Ancho sidebar aumentado para robustez
 
 // the :export directive is the magic sauce for webpack
 // https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
