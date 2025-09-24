@@ -7,16 +7,26 @@ $robust-info: #455A64;     // Gris azulado
 $robust-dark: #0D1117;     // Negro tecnológico
 $robust-light: #E1E5E9;    // Gris claro elegante
 
-// Sidebar - Plataforma Robusta
-$menuText: #B0BEC5;           // Texto del menú - gris claro robusto
-$menuActiveText: #0A2E5C;     // Texto activo - azul principal
-$subMenuActiveText: #FFFFFF;  // Texto submenu activo - blanco puro
+// Variables de compatibilidad (usando paleta robusta)
+$blue: $robust-blue;       // #0A2E5C
+$light-blue: #1565C0;      // Azul más claro robusto
+$red: $robust-danger;      // #C62828
+$pink: #AD1457;            // Rosa robusto
+$green: $robust-success;   // #2E7D32
+$tiffany: #00695C;         // Verde azulado robusto
+$yellow: $robust-warning;  // #EF6C00
+$panGreen: $robust-success; // #2E7D32
 
-$menuBg: #263238;             // Fondo menú - gris oscuro robusto
-$menuHover: #37474F;          // Hover menú - gris medio
+// Sidebar - Solo Negro Tecnológico y Gris Claro Elegante
+$menuText: $robust-light;        // Texto del menú - gris claro elegante
+$menuActiveText: $robust-light;  // Texto activo - gris claro elegante
+$subMenuActiveText: $robust-light; // Texto submenu activo - gris claro elegante
 
-$subMenuBg: #1C2833;          // Fondo submenu - azul muy oscuro
-$subMenuHover: #0A2E5C;       // Hover submenu - azul principal
+$menuBg: $robust-dark;           // Fondo menú - negro tecnológico
+$menuHover: #1a1f24;        // Hover menú - negro tecnológico ligeramente más claro
+
+$subMenuBg: $robust-dark;        // Fondo submenu - negro tecnológico
+$subMenuHover: #21262d;          // Hover submenu - negro tecnológico más claro
 
 $sideBarWidth: 220px;         // Ancho sidebar aumentado para robustez
 

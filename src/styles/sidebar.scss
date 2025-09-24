@@ -66,6 +66,21 @@
       border: none;
       height: 100%;
       width: 100% !important;
+      
+      // Estilos para elementos del menú principal
+      .el-menu-item {
+        color: $menuText !important;
+        
+        &:hover {
+          background-color: $menuHover !important;
+          color: $menuActiveText !important;
+        }
+        
+        &.is-active {
+          background-color: $menuHover !important;
+          color: $menuActiveText !important;
+        }
+      }
     }
 
     // menu hover
@@ -211,7 +226,7 @@
     overflow-y: auto;
 
     &::-webkit-scrollbar-track-piece {
-      background: #d3dce6;
+      background: $menuBg;
     }
 
     &::-webkit-scrollbar {
@@ -219,8 +234,9 @@
     }
 
     &::-webkit-scrollbar-thumb {
-      background: #99a9bf;
+      background: $menuText;
       border-radius: 20px;
+      opacity: 0.5;
     }
   }
 }
